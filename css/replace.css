@@ -1,0 +1,11 @@
+.gaadimage {
+	padding:.25em;
+}
+.js .carousel .gaadimage {
+	min-height:300px;
+	text-align:center;
+	padding: 1em;
+}
+.js img {
+	display: none !important;
+}
