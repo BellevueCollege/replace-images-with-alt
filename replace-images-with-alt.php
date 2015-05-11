@@ -12,12 +12,16 @@
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 
-function add_image_replacement_script() {
+function image_replacement() {
+	wp_enqueue_style(
+		'replace-images-style',
+		plugins_url( '/css/replace.css', __FILE__ )
+	);
 	wp_enqueue_script(
-		'replace-images',
+		'replace-images-script',
 		plugins_url( '/js/replace.js', __FILE__ ),
 		array( 'jquery' )
 	);
 }
 
-add_action( 'wp_enqueue_scripts', 'add_image_replacement_script' );
+add_action( 'wp_enqueue_scripts', 'image_replacement' );
