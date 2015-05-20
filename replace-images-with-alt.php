@@ -3,10 +3,9 @@
  * Plugin Name: Replace All Images with Alt Text
  * Plugin URI: https://github.com/BellevueCollege/replace-images-with-alt/
  * Description: Enqueues jQuery to replace all images with their alt text. Designed to raise awareness for Global Accessibility Awareness Day 2015.
- * 0.0.0.1
+ * 1.0
  * Author: Bellevue College Information Technology Services
  * Author URI: http://www.bellevuecollege.edu
- * License:
  */
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
